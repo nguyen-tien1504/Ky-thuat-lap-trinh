@@ -1,0 +1,9 @@
+# ninja log v5
+13	1040	6956474247013473	CMakeFiles/Ky_thuat_lap_trinh.dir/pointer.cpp.obj	3d702f93c72ef237
+7	722	6953013316500430	CMakeFiles/Ky_thuat_lap_trinh.dir/main.cpp.obj	ccb6d70bb8dbc320
+6	486	6956494193424053	CMakeFiles/Ky_thuat_lap_trinh.dir/string.cpp.obj	2f02604b0d0d77f7
+5	239	6956347982644889	Ky_thuat_lap_trinh.exe	55420b22c9f26714
+2	252	6968787834982565	build.ninja	d05dd7d7740317eb
+5	853	6954673264441174	CMakeFiles/Ky_thuat_lap_trinh.dir/demo.cpp.obj	b9dcd0428cc17698
+7	542	6956484796201264	CMakeFiles/Ky_thuat_lap_trinh.dir/chuoi.cpp.obj	a632489b54a18a84
+5	559	6956496265145003	CMakeFiles/Ky_thuat_lap_trinh.dir/chuoi111.cpp.obj	84ed7cdfb47cb2fe
