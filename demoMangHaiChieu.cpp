@@ -178,6 +178,30 @@ void chuyenViMaTran(int arr[MAX][MAX], int &m, int &n){
 
     xuatMang2Chieu(arr, m, n);
 }
+
+void demSoLuongChuSoNguyenDuong(int arr[MAX][MAX], int m, int n){
+    for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if(arr[i][j] < 0){
+                printf("arr[%d][%d] khong phai la so nguyen duong \n",i ,j);
+                break;
+            }
+
+            int count = 0;
+            int current = arr[i][j];
+            while (current >= 10)
+            {
+                count++;
+                current /= 10;
+            }
+            printf("So luong chu so trong arr[%d][%d] la: %d\n", i, j, count + 1);
+        }
+        
+    }
+    
+}
 int main(){
     int m, n;
     int arr[MAX][MAX];
@@ -204,5 +228,9 @@ int main(){
     //6. Chuyen ma tran chuyen vi
     //chuyenViMaTran(arr, m, n);
 
+    //7. Dem so luong chu so cua so nguyen duong trong ma tran
+    demSoLuongChuSoNguyenDuong(arr, m ,n);
+
+    
     return 0;
 }
