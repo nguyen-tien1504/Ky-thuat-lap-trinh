@@ -1,3 +1,0 @@
-C:/Users/Nguyen Tien/CLionProjects/Ky thuat lap trinh/cmake-build-debug/CMakeFiles/Ky_thuat_lap_trinh.dir
-C:/Users/Nguyen Tien/CLionProjects/Ky thuat lap trinh/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Nguyen Tien/CLionProjects/Ky thuat lap trinh/cmake-build-debug/CMakeFiles/rebuild_cache.dir
