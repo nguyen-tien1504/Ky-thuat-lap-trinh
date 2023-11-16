@@ -401,6 +401,13 @@ void demCucTri(int arr[MAX][MAX], int m, int n){
         for (int j = 0; j < n; j++)
         {
 
+            if(i == 0){
+                
+            }
+            if(arr[i][j] > arr[i][j+1] && arr[i][j] > arr[i][j-1] && arr[i][j] > arr[i+1][j] && arr[i][j] > arr[i-1][j]){
+                count++;
+                printf("%d", arr[i][j]);
+            }
         }
         
     }
@@ -501,6 +508,7 @@ int main(){
     // demCucTri(arr, m, n);
 
     //20. dem cac phan tu phan biet
-    demPhanBiet(arr, m, n);
+    //demPhanBiet(arr, m, n);
+    demCucTri(arr, m, n);
     return 0;
 }
