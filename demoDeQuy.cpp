@@ -2,7 +2,6 @@
 // Created by Nguyen Tien on 10-Feb-23.
 //
 #include <iostream>
-
 using namespace std;
 void NhiPhan(int n){
     if(n == 0) return;

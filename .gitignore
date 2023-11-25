@@ -1,3 +1,6 @@
 /*.exe
 /output
 /.vs
+/.vscode
+/*.html
+/script.js

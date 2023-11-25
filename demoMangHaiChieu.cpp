@@ -509,6 +509,5 @@ int main(){
 
     //20. dem cac phan tu phan biet
     //demPhanBiet(arr, m, n);
-    demCucTri(arr, m, n);
     return 0;
 }
