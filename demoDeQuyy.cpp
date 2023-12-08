@@ -44,7 +44,7 @@ int timLonNhat(int arr[MAX], int n){
     return max;
 }
 
-int demPhanTu(int arr[MAX], int n){
+int demPhanTu(int arr[], int n){
     if(n == 0) return n;
 
     int count = 0;
@@ -98,13 +98,13 @@ int main(){
 
     // printf("%d", tinhGiaiThua(n));
 
-    // int arr[MAX];
-    // nhapMang1Chieu(arr, n);
+    int arr[MAX];
+    nhapMang1Chieu(arr, n);
 
     // printf("%d", tongMang(arr, n));
     //printf("%d", demSoDuong(arr, n));
     // printf("%d", timLonNhat(arr, n));
-    // printf("%d", demPhanTu(arr, n));
+    printf("%d", demPhanTu(arr, n));
 
     // char str[100];
     // printf("Nhap chuoi: ");
@@ -118,6 +118,6 @@ int main(){
     // chuyenGioPhutGiay(n);
 
     // kiemTraSoNguyenTo(n);
-    printf("%d", tongCacSoNguyen(n));
+    // printf("%d", tongCacSoNguyen(n));
     return 0;
 }

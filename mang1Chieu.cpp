@@ -1,7 +1,7 @@
 //
 // Created by Nguyen Tien on 15-Jan-23.
 //
-#include <iostream>;
+#include <iostream>
 using namespace std;
 int timSoLonNhat(int a[], int first, int last){
     if(first == last) return a[first];
@@ -28,14 +28,22 @@ void ChenViTri(int a[], int &n, int vt, int nd){
     }
     a[vt]=nd;
 }
+
+
+void mergeSort(int arr[], int n){
+    if(n > 1){
+        mergeSort(arr, n/2);
+    }
+}
 int main(){
 //    int a[] = {1,2,4,6,3,2};
 //    int max = timSoLonNhat(a, 0, 5);
 //    cout << "So lon nhat: " << max;
     int n;
-    int a[100];
+    int a[10];
     NhapDS(a, n);
-    ChenViTri(a, n, 2, 99);
+    //ChenViTri(a, n, 2, 99);
+    mergeSort(a, n);
     XuatDS(a, n);
     return 0;
 };
